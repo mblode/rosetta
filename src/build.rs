@@ -1,5 +1,5 @@
 use pulldown_cmark::{Parser, Options, html};
-use std::fs::{ File, read_dir };
+use std::fs::{ read_dir };
 use std::env;
 use std::path::{ Path, PathBuf };
 

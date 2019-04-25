@@ -23,13 +23,13 @@ fn main() -> Result<(), ExitFailure> {
             let source_dir = matches.value_of("source");
             let destination_dir = matches.value_of("destination").unwrap();
 
-            build::build_site(source_dir, destination_dir);
+            build::build_site(source_dir, destination_dir)?;
         }
         ("serve", Some(_matches)) => {
             let source_dir = matches.value_of("source").unwrap();
             let destination_dir = matches.value_of("destination").unwrap();
 
-            serve::serve_site(source_dir, destination_dir);
+            serve::serve_site(source_dir, destination_dir)?;
         }
         _ => unreachable!()
     }
