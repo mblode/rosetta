@@ -1,0 +1,16 @@
+[package]
+name = "rusta"
+version = "0.1.0"
+authors = ["Matthew Blode <m@blode.co>"]
+edition = "2018"
+
+[dependencies]
+pulldown-cmark = "0.5.0"
+clap = {version = "2.33", features = ["yaml"]}
+actix-web = "0.7.19"
+chrono = "0.4.6"
+failure = "0.1.5"
+exitfailure = "0.5.1"
+serde = "1.0"
+serde_derive = "1.0"
+toml = "0.4"

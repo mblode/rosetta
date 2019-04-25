@@ -1,0 +1,32 @@
+name: rusta
+version: "1.0"
+author: Matthew Blode <m@blode.co>
+about: Fast static site generator
+args:
+    - source:
+        short: s
+        long: source
+        value_name: DIR
+        help: Destination directory,
+        takes_value: true
+        default_value: "./build"
+    - destination:
+        short: d
+        long: destination
+        value_name: DIR
+        help: Source directory.
+        takes_value: true
+        default_value: "./"
+subcommands:
+    - new:
+        about: Creates a new Rusta site scaffold in PATH.
+        args:
+            - name:
+                required: true
+                help: Name of the project. Will create a new directory with that name in the current directory
+    - build:
+        about: Build your site.
+    - serve:
+        about: Serve your site locally.
+    - clean:
+        about: Clean the site (removes site output and metadata file) without building.
