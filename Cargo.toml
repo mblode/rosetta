@@ -1,12 +1,12 @@
 [package]
-name = "rusta"
+name = "rosetta"
 version = "0.1.0"
 authors = ["Matthew Blode <m@blode.co>"]
 edition = "2018"
 readme = "README.md"
 description = "A fast static site generator."
-homepage = "https://github.com/mblode/rusta"
-repository = "https://github.com/mblode/rusta"
+homepage = "https://github.com/mblode/rosetta"
+repository = "https://github.com/mblode/rosetta"
 license = "MIT"
 keywords = ["static", "site", "generator", "blog"]
 

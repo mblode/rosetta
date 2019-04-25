@@ -1,4 +1,4 @@
-name: rusta
+name: rosetta
 version: "1.0"
 author: Matthew Blode <m@blode.co>
 about: Fast static site generator
@@ -19,7 +19,7 @@ args:
         default_value: "./"
 subcommands:
     - new:
-        about: Creates a new Rusta site scaffold in PATH.
+        about: Creates a new Rosetta site scaffold in PATH.
         args:
             - name:
                 required: true

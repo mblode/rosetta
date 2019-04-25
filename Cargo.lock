@@ -1081,7 +1081,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rusta"
+name = "rosetta"
 version = "0.1.0"
 dependencies = [
  "actix-web 0.7.19 (registry+https://github.com/rust-lang/crates.io-index)",

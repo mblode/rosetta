@@ -1,4 +1,4 @@
-# Rusta
+# Rosetta
 
 A fast static site generator.
 

@@ -9,7 +9,7 @@ use failure::ResultExt;
 const CONFIG: &str = r#"
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Rusta Site"
+title = "My New Rosetta Site"
 "#;
 
 pub fn create_file(path: &Path, content: &str) -> Result<(), ExitFailure> {
@@ -33,7 +33,7 @@ pub fn new_site (name: &str) -> Result<(), ExitFailure> {
     create_dir(path.join("static"))?;
     create_dir(path.join("themes"))?;
 
-    println!("Congratulations! Your new Rusta site is created in {:?}", canonicalize(path).unwrap());
+    println!("Congratulations! Your new Rosetta site is created in {:?}", canonicalize(path).unwrap());
 
     Ok(())
 }
